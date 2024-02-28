@@ -102,10 +102,12 @@
     padding-left: 18px;
     flex: 1;
     justify-self: start;
+    flex-wrap: wrap;
 }
 .right{
     padding-right: 18px;
     justify-content: flex-end;
+    flex-wrap: wrap;
 
 }
 
@@ -174,4 +176,44 @@
     margin-right: 20px;
 }
 
+
+.navad{
+        display: flex;
+        width:100%;
+
+    }
+
+.header{
+    width: 100%;
+    display: flex;
+}
+
+.header div{
+    width: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+.header .logo{
+    justify-content: left;
+}
+
+.header .logo a img{
+    width: 35%;
+    height: 65%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.header div a{
+    color: #333;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.header div a:hover{
+    text-decoration: underline;
+}
 
