@@ -10,47 +10,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <nav class="navad">
+    <nav class="navad">
+        <div class="header">
+            <div class="logo"> 
+                <a href="index.html"><img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>  
+            </div>
+            <div>
+                <a href="index.html" class="nav">Bùsqueda</a>
+                <a href="image.html" class="nav">Imagenes</a>
+            </div>   
+        </div>                                     
+    </nav>
+    <div class="appbar">
+        <label> Advanced Search</label>
+    </div>   
+<form action="https://google.com/search" method="GET" name="f">
+    <div class="grid">
+        <div class="grid-item">Find pages with...</div>
+        <div class="grid-item">  </div>
+        <div class="grid-item">To do this in the search box.</div>
+        <div class="grid-item">all these words:</div>
+        <div class="grid-item"><input value="" autofocus="autofocus" name="as_q" type="text"></div>
+        <div class="grid-item">Type the important words: tri-colour rat terrier</div>
+        <div class="grid-item">this exact word or phrase:</div>
+        <div class="grid-item"><input value="" autofocus="autofocus" name="as_epq" type="text"></div>
+        <div class="grid-item">Put exact words in quotes: "rat terrier"</div>
+        <div class="grid-item">any of these words:</div>
+        <div class="grid-item"><input value="" autofocus="autofocus" name="as_oq" type="text"></div>
+        <div class="grid-item">Type OR between all the words you want: miniature OR standard</div>
+        <div class="grid-item">none of these words:</div>
+        <div class="grid-item"><input value="" autofocus="autofocus" name="as_eq" type="text"></div>
+        <div class="grid-item">Put a minus sign just before words that you don't want:<br>-rodent, -"Jack Russell"</div>
+        <div class="grid-item" ></div>
+        <div class="grid-item"></div>
+        <div class="grid-item submit"><input value="Advanced search" type="submit"></div>
+    </div>
+    <div class="submit"></div>
+    
+</form>
 
-                    <div class="header">
-                        <div class="logo"> 
-                                <a href="index.html"><img alt="Google"   src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" ></a>  
-                        </div>
-                        <div>
-                            <a href="index.html" class="nav">Bùsqueda</a>
-                            <a href="image.html" class="nav">Imagenes</a>
-                        </div>   
-                    </div>
-                
-        </nav>
-    <center>
-        
-        <form action="https://google.com/search">
-            <div class="container h-25">
-                <div class="d-flex justify-content-center ">
-                    <div class="searchbar">
-                        <i class="fas fa-search" aria-hidden="true"></i>
-                        <input class="search_input" type="text" name="q">  
-                        <img src="mic.png" alt="mic" height="35" width="35"> 
-                    </div>
-                </div>
-            </div>  
-        </form>
 
-    </center>
-    <footer class="footer ">
-        <h4> Nicaragua</h4>
-
+    <footer class="footer">
+        <h4>Nicaragua</h4>
         <div class="bottom">
             <div class="left">
-            <a href="#">Help</a>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-
+                <a href="#">Help</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
         </div>
-
-    </div>
     </footer>
-
 </body>
 </html>

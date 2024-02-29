@@ -200,8 +200,8 @@
 }
 
 .header .logo a img{
-    width: 35%;
-    height: 65%;
+    width: 30%;
+    height: 60%;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -215,5 +215,75 @@
 
 .header div a:hover{
     text-decoration: underline;
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    padding-left: 50px;
+}
+
+
+.table{
+    align-items: left;
+}
+
+
+.grid {
+    display: grid;
+    padding: 10px;
+    grid-column-gap: 0px;
+    grid-template-columns: 200px 200px 500px;
+    flex-wrap: wrap;
+
+}
+
+.grid-item {
+    background-color: white;
+    padding: 20px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+}
+
+.submit{
+
+    margin-left: 300px;
+}
+
+.submit input{
+    border: 1px solid #3079ed;
+    background-color: #4d90fe;
+    color: #fff;
+    font-family: arial,sans-serif;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    padding: 0 12px;
+}
+
+
+.div input{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(217, 217, 217);
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+  
+    text-align: left;
+
 }
 
