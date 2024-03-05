@@ -22,7 +22,7 @@
 
 
 .search_input {
-    color: rgb(32, 32, 32);
+    color: rgba(0,0,0,.87);
     border: none; 
     outline: none;
     background: none;
@@ -31,7 +31,7 @@
     flex: 1; 
     height: 100%;
     margin-left: 10px;
-    font-weight: medium;
+    font-weight: 100;
     display: flex;
 }
 
