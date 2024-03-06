@@ -73,6 +73,8 @@
     font-weight: 400;
     line-height: 39.5px;
     padding-left: 29px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;    
 }
 .footer a{
     color: #333; 
@@ -219,14 +221,13 @@
 .grid {
     display: grid;
     padding: 4px;
-    grid-template-columns: 200px 500px 500px;
+    grid-template-columns: 200px 500px 400px;
     flex-wrap: wrap;
     grid-gap: 10px;
 }
 
 .grid-item {
     background-color: white;
-    margin-right: 10px;
     padding: 5px;
     font-family: arial,sans-serif;
     font-size: 13px;
@@ -237,6 +238,9 @@
 .submit{
     margin-left: 300px;
     justify-content: right;
+    display: flex;
+    flex: flex-end;
+
 }
 
 .submit input{
@@ -249,8 +253,7 @@
     font-weight: bold;
     text-align: center;
     height: 30px;
-    padding: 0 12px;
-    width: 80%;
+    width: 90%;
 }
 
 .input{
@@ -273,4 +276,40 @@
 }
 
 
+@media screen and (max-width:1050px) { 
+    .grid-hide{
+        display: none;
+        visibility: hidden;
+    }
 
+    .grid {
+        display: grid;
+        padding: 4px;
+        grid-template-columns: 200px 480px;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        
+    }
+    form{
+        width: 80%;
+    }
+    .input{
+        width: 96.5%;
+    }
+}
+
+@media screen and (max-width:702px) {
+    .grid {
+        display: grid;
+        padding: 4px;
+        grid-template-columns: 200px calc(80% - 20px);
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        
+    }
+
+    .submit{
+        margin-left: 60%;
+    }
+
+}
