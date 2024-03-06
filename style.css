@@ -1,38 +1,33 @@
 .searchbar {
-    margin-bottom: auto;
     margin-top: 25px;
     width: 560px;
-    height: 45px; 
+    height: 45px;
     background-color: white;
-    border: 1px solid rgb(210, 208, 211); 
-    border-radius: 25px; 
-    display: flex; 
-    align-items: center; 
-    padding: 0 10px; 
-    font-family:'Roboto', sans-serif;
+    border: 1px solid rgb(210, 208, 211);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
-    
-
+    width: calc(100% - 20px); 
+    max-width: 500px; 
 }
 
 .searchbar:hover{
-    border: 1px solid rgb(210, 208, 211);
     box-shadow: 0px 2px 2px rgba(71, 71, 71, 0.2);
 }
 
-
 .search_input {
-    color: rgba(0,0,0,.87);
-    border: none; 
+    color: rgba(0, 0, 0, .87);
+    border: none;
     outline: none;
     background: none;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
-    flex: 1; 
+    flex: 1;
     height: 100%;
     margin-left: 10px;
-    font-weight: 100;
-    display: flex;
 }
 
 .low-button{   
@@ -52,17 +47,13 @@
         font-size: 14px;
         cursor: pointer;
         margin-left: 10px;   
-        transition: box-shadow 0.01s   
-
+        transition: box-shadow 0.01s;
 }
 
 .btn:hover{
     border: 1px solid rgb(210, 208, 211);
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
-
 }
-
-
 
 .footer {
     background-color: #f2f2f2; 
@@ -70,8 +61,8 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    flex-wrap: wrap;
-
+    flex-direction: column;
+    display: flex;
 }
 
 .footer h4{
@@ -82,7 +73,6 @@
     font-weight: 400;
     line-height: 39.5px;
     padding-left: 29px;
-    flex-wrap: wrap;
 }
 .footer a{
     color: #333; 
@@ -91,7 +81,6 @@
     padding: 12px 11.3px;
     font-size: 15px;
     text-decoration: none;
-
 }
 .footer a:hover{
     text-decoration: underline;
@@ -100,22 +89,19 @@
     border-top: 1px solid #ddd;
     display: flex;
     flex-wrap: wrap;
-
 }
 .left{
     padding-left: 18px;
     flex: 1;
     justify-self: start;
-    flex-wrap: wrap;
+    display: flex ;
 }
 .right{
     padding-right: 18px;
     justify-content: flex-end;
-    flex-wrap: wrap;
-
+    display: flex;
+    align-items: center;
 }
-
-
 
 .nav{
     display: flex;
@@ -140,7 +126,6 @@
 
 .nav a:hover{
     text-decoration:underline;
-
 }
 
 .searchbar .fas.fa-search {
@@ -152,7 +137,6 @@
         font-family: 'Roboto', sans-serif;
         color:   #575757; 
         font-size: 14px;
-
     }
     
     
@@ -160,7 +144,6 @@
         color: #1a0dab;
         text-decoration: none;
         margin-left: 5px;
-    
     }
 
 .leng a:hover{
@@ -172,19 +155,15 @@
     font-family: 'Roboto', sans-serif;
     color: rgb(66, 133, 244);
     margin-left: 230px;
-
-    
 }
 .googleimg{ 
     float: left;
     margin-right: 20px;
 }
 
-
 .navad{
         display: flex;
         width:100%;
-
     }
 
 .header{
@@ -233,11 +212,9 @@
     padding-left: 50px;
 }
 
-
 .table{
     align-items: left;
 }
-
 
 .grid {
     display: grid;
@@ -245,9 +222,6 @@
     grid-template-columns: 200px 500px 500px;
     flex-wrap: wrap;
     grid-gap: 10px;
-
-
-
 }
 
 .grid-item {
@@ -258,13 +232,9 @@
     font-size: 13px;
     font-weight: 700;
     color: #777;
-
 }
 
-
-
 .submit{
-
     margin-left: 300px;
     justify-content: right;
 }
@@ -283,7 +253,6 @@
     width: 80%;
 }
 
-
 .input{
     border-radius: 1px;
     border: 1px solid #d9d9d9; 
@@ -296,8 +265,8 @@
     border: 1px solid rgb(210, 208, 211);
     cursor: pointer; 
     width: 90%;
-
 }
+
 .input:hover{
     border: 1px solid #3079ed;
     box-shadow: 0px 2px 2px rgb(210, 208, 211);
