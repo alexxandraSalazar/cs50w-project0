@@ -97,7 +97,7 @@
     padding-left: 18px;
     flex: 1;
     justify-self: start;
-    display: flex ;
+    display: flex;
 }
 .right{
     padding-right: 18px;
@@ -105,7 +105,6 @@
     display: flex;
     align-items: center;
 }
-
 .nav{
     display: flex;
     align-items: center;
@@ -113,7 +112,6 @@
     margin-right: 30px;
     margin-top: 14px;
 }
-
 
 .nav a{
     font-size: 14px;
@@ -237,7 +235,7 @@
 }
 
 .submit{
-    margin-left: 300px;
+    margin-left: 70%;
     justify-content: right;
     display: flex;
     flex: flex-end;
@@ -254,7 +252,7 @@
     font-weight: bold;
     text-align: center;
     height: 30px;
-    width: 90%;
+    width: 100%;
 }
 
 .input{
@@ -276,7 +274,6 @@
     box-shadow: 0px 2px 2px rgb(210, 208, 211);
 }
 
-
 @media screen and (max-width:1050px) { 
     .grid-hide{
         display: none;
@@ -288,8 +285,7 @@
         padding: 4px;
         grid-template-columns: 200px 480px;
         flex-wrap: wrap;
-        grid-gap: 10px;
-        
+        grid-gap: 10px;  
     }
     form{
         width: 80%;
@@ -299,7 +295,7 @@
     }
 }
 
-@media screen and (max-width:702px) {
+@media screen and (max-width:802px) {
     .grid {
         display: grid;
         padding: 4px;
@@ -308,14 +304,26 @@
         grid-gap: 10px;
         
     }
-
     .submit{
         margin-left: 60%;
     }
 
-}
-  @media screen and( max-width:556){
-    .footer {
-        justify-content: space-evenly;
+@media screen and (max-width:550px) {
+    .grid {
+        display: grid;
+        padding: 4px;
+        grid-template-columns: 200px calc(60% - 20px);
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        
     }
-  }
+
+    .submit{
+        margin-left: 30%;
+    }
+    }
+}
+
+
+
+
